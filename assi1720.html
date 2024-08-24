@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    // Q#1
+// var multidimensionalArray = [];
+// var rows = 3; 
+// var columns = 4; 
+
+// for (var i = 0; i < rows; i++) {
+//   multidimensionalArray[i] = [];
+//   for (var j = 0; j < columns; j++) {
+//     multidimensionalArray[i][j] = null;
+//   }
+// }
+// console.log(multidimensionalArray);
+// Q#2
+
+// var matrix = [
+//   [1, 2, 3],
+//   [4, 5, 6],
+//   [7, 8, 9]
+// ];
+
+// console.log(matrix);
+// Q#3
+
+// for (var i = 1; i <= 10; i++) {
+//   console.log(i);
+// }
+
+// Q#4
+
+// var number = prompt("Enter the number for the multiplication table:");
+// vae length = prompt("Enter the length of the multiplication table:");
+
+// // Using a for loop to print the multiplication table
+// for (var i = 1; i <= length; i++) {
+//   console.log(number + " x " + i + " = " + (number * i));
+// }
+// Q#5
+
+// var fruits = ["apple", "banana", "mango", "orange", "strawberry"];
+
+
+// for (var i = 0; i < fruits.length; i++) {
+//   console.log(fruits[i]);
+// }
+// Q6(1)
+// var countingArray = [];
+
+
+// for (var i = 1; i <= 15; i++) {
+//   countingArray.push(i);
+// }
+// console.log("Counting: " + countingArray.join(", "));
+// (2)
+// var output = "Counting: ";
+
+// for (var i = 1; i <= 15; i++) {
+//   output += i; 
+//   if (i < 15) {
+//     output += ", "; 
+//   }
+// }
+
+// console.log(output);
+// (3)
+
+// var output = "Reverse counting: ";
+
+// for (var i = 10; i >= 1; i--) {
+//   output += i; // Append the current number to the output string
+//   if (i > 1) {
+//     output += ", "; // Add a comma and space if not the last number
+//   }
+
+// }
+
+// console.log(output); // Log the final output to the console
+// (4)
+// 
+// var output = "Even: ";
+
+// for (var i = 0; i <= 20; i += 2) {
+//   output += i; 
+//   if (i < 20) {
+//     output += ", "; 
+//   }
+// }
+
+// console.log(output); 
+// (5)
+// var output = "";
+
+// for var i = 1; i < 20; i += 2) {
+//   output += i; 
+//   if (i < 19) {
+//     output += ", "; 
+//   }
+// }
+
+// console.log(output); 
+// (6)
+
+// var output = "";
+
+// for (var i = 2; i <= 20; i += 2) {
+//   output += i + "k"; 
+//   if (i < 20) {
+//     output += ", "; 
+//   }
+// }
+
+// console.log(output); 
+// Q#7
+// Declare and initialize the array
+// var A = ["cake", "apple pie", "cookie", "chips", "patties"];
+
+
+// var userInput = prompt("Enter the item you want to search for:");
+
+// var found = false;
+// for (vari = 0; i < A.length; i++) {
+//   if (A[i] === userInput) {
+//     found = true; // Set found to true if the item is found
+//     break; // Exit the loop since the item has been found
+//   }
+// }
+
+// if (found) {
+//   alert(userInput + "  is avaible in the list.");
+// } else {
+//   alert(userInput + " we are sorry this is not availabe.");
+// }
+// Q#8
+// Declare and initialize the array
+// var A = [24, 53, 78, 91, 12];
+
+// var largest = A[0]; // Assume the first element is the largest initially
+
+
+// for (var i = 1; i < A.length; i++) {
+//   if (A[i] > largest) {
+//     largest = A[i]; // Update largest if a larger number is found
+//   }
+// }
+
+// console.log("The largest number in the array is: " + largest);
+
+
+// Q#9
+// Declare and initialize the array
+// var A = [24, 53, 78, 91, 12];
+
+// var smallest = A[0]; // Assume the first element is the smallest initially
+
+
+// for (var i = 1; i < A.length; i++) {
+//   if (A[i] < smallest) {
+//     smallest = A[i]; // Update smallest if a smaller number is found
+//   }
+// }
+// console.log("The smallest number in the array is: " + smallest);
+
+
+
+// Q#10
+let multiplesOf5 = [];
+for (let i = 1; i <= 100; i++) {
+  if (i % 5 === 0) {
+    multiplesOf5.push(i); 
+  }
+}
+
+console.log("Multiples of 5 from 1 to 100: " + multiplesOf5.join(", "));
+
+
+
+
+
+</script>
+
+</body>
+</html>
